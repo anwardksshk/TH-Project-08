@@ -1,0 +1,106 @@
+/* Survey page styles */
+
+button	{
+	background-color:#A2DED0; 
+	border: 2px solid transparent;
+	border-radius: 8px;
+	padding: 15px;
+	margin-top: 15px;
+	font-size: 12px;
+	color: black;
+	width: 100%;
+}
+
+button:focus	{
+	background-color:#172A17; 
+	color: white;
+	border: 2px solid white;
+}
+
+.photo{
+  width: 60%;
+  padding: 10px;
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+	border: none;
+}
+
+legend	{
+	border-bottom: 2px solid  #96731A;
+	padding-bottom: 6px;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #96731A;
+	margin-bottom: 16px;
+}
+
+fieldset	{
+	border: none;
+	margin: 0;
+  padding: 0;
+}
+
+.container{
+  text-align: center;
+}
+.newsletter, .survey{
+  text-align: right;
+
+}
+
+label:first-of-type	{
+	margin-top: 0;
+}
+
+label	{
+	display: block;
+	margin-top: 35px;
+}
+
+.radio-label	{
+	margin-top: 0;
+	margin-left: 3px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+input[type=text], 
+input[type=email], 
+select, 
+textarea {
+
+  background-color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 5px;
+  width: 100%;
+  color: #323232;
+  font-style: normal;
+  border: 3px solid transparent;
+}
+
+input[type=text]:focus, 
+input[type=email]:focus, 
+select:focus, 
+textarea:focus {
+	background-color: #A2DED0;
+}
+
+.aria-describedby	{
+	margin-top: -2px;
+	font-size: 12px;
+	color:white;
+	font-style: italic;
+}
+
+/* Styles for larger screens */
+@media screen and (min-width: 840px) {
+  .photo{
+    width: 40%;
+  }
+}

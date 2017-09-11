@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8">
+      <link href="css/styles.css" rel="stylesheet" type="text/css" />
+      <link href="css/tour.css" rel="stylesheet" type="text/css" />
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+      <title>Accessible Frog</title>
+  </head>
+
+  <body>
+    <nav role="navigation" class="main-nav">
+      <ul class="nav">
+        <li class="name"><a href="index.html">Accessible Frog</a></li>
+        <li><a href="tour.html">Tour</a></li>
+        <li><a href="survey.html">Survey</a></li>
+      </ul>
+	  </nav>
+
+    <header role="banner">
+		<h1>Accessibility</h1>
+		<h2>we make awesome music</h2>
+    </header>
+
+    <main role="main">
+      <div class="card">
+        <div class="flex">
+        <!-- The following images are decorative for this project. -->
+        <!-- Please see the project instructions for information on how to handle these. -->
+			<table class="tour-dates">
+				<caption>
+					<img class="pick" src= "img/guitar_pick.png" alt="">
+						<h3>Tour Dates</h3>
+					<img class="pick" src= "img/guitar_pick.png" alt="">
+				</caption>
+				<thead>
+					<tr>
+						<th id="date" scope="col">Date</th>
+						<th id="venue" scope="col">Venue</th>
+						<th id="location" scope="col">Location</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th id="firstDate" scope="row">Mar 10 - 12</th>
+						<td headers="firstDate venue">The Warfield</td>
+						<td headers="firstDate location">San Francisco, CA</td>
+					</tr>
+					<tr>
+						<th id="secondDate" scope="row">Mar 20 - 23</th>
+						<td headers="secondDate venue">Pepsi Center</td>
+						<td headers="secondDate location">Denver, CO</td>
+					</tr>
+					<tr>
+						<th id="thirdDate" scope="row">Apr 02 - 04</th>
+						<td headers="thirdDate venue">Beacon Theatre</td>
+						<td headers="thirdDate location">New York City, NY</td>
+					</tr>
+					<tr>
+						<th id="fourthDate" scope="row">Apr 10</th>
+						<td headers="fourthDate venue">Paramount Theatre</td>
+						<td headers="fourthDate location">Seattle, WA</td>
+					</tr>
+				</tbody>
+			</table>
+        </div>
+      </div>
+    </main>
+    
+    <footer role="contentinfo">
+      <ul>
+        <li><a href="#" class="social twitter"><img src= "img/twitter-32.png" alt="twitter link"></a></li>
+        <li><a href="#" class="social youtube"><img src= "img/youtube-32.png" alt="youtube link"></a></li>
+        <li><a href="#" class="social spotify"><img src= "img/spotify-32.png" alt="spotify link"></a></li>
+      </ul>
+      <p class="copyright">Copyright 2015, Accessible Frog</p>
+    </footer>
+  </body>
+</html>

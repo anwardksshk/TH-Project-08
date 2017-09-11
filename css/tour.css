@@ -1,0 +1,39 @@
+/* Tour page styles */
+
+.tour-dates {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+	margin: 0 auto;
+}
+
+.tour-dates thead tr{
+background-color: white;
+	color: black;
+}
+
+.tour-dates caption	{
+	margin-bottom: 20px;
+}
+
+.tour-dates tbody tr	{
+	height: 40px;
+}
+
+.tour-dates tbody tr th, td	{
+	width: 250px;
+}
+
+h3	{
+	display: inline-block;
+}
+
+.heading{
+  display: inline-block;
+  margin: 0;
+}
+
+.pick{
+  width: 40px;
+  height: 0%;
+  padding: 10px;
+}
